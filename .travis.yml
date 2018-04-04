@@ -1,0 +1,11 @@
+language: ruby
+sudo: false
+cache: bundler
+
+rvm:
+  - 2.3.3
+  - 2.4.1
+
+env:
+  - RAILS_VERSION=5.0.3
+  - RAILS_VERSION=5.1.1
